@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest # {"$imagescan": "test-scan:digest"}
+        image: index.docker.io/library/nginx:1.25.1@sha256:73e957703f1266530db0aeac1fd6a3f87c1e59943f4c13eb340bb8521c6041d7 # {"$imagescan": "test-scan:digest"}
         ports:
         - containerPort: 80
